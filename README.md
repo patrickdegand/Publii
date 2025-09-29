@@ -1,2 +1,2 @@
 # Publii
-made with Piblii CMS
+made with Publii CMS
