@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (backToTopButton) {
         const backToTopScrollFunction = () => {
             if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-                backToTopButton.classList.add('is-visible');
+                backToTopButton.classList.add('w3-show');
             } else {
-                backToTopButton.classList.remove('is-visible');
+                backToTopButton.classList.remove('w3-show');
             }
         };
 
